@@ -1,0 +1,98 @@
+.stan_break {
+	height: 10px;
+}
+
+/*.image_control {
+	width: 33%;
+}*/
+
+.stan_title {
+	font-size: 20px;
+	/*default font size 16px*/
+	font-family: 'Press Start 2P', cursive;
+	margin: 30px 0;
+	text-align: center;
+	background: lightgreen;
+	text-align: left;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.title_n_text a {
+	color: lightblue;
+}
+
+.title_n_text a:hover {
+	color: lightgreen;
+	font-style: italic;
+}
+
+div.stanza {
+	display: block;
+}
+
+span.years{
+	font-size: 38px;
+	border: 5px solid yellow;
+	background-color: black;
+}
+span.years a{
+	
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+span.years a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 15px;
+}
+span.years a:active{
+	color: black;
+	background-color: white;
+}
+
+a.default {
+	background-color: gray;
+	border-radius: 15px;
+}
+
+.title_n_text {
+	/*border: 3px solid black;*/
+	font-family: "MS Mincho";
+	font-size: 19px;
+	background: black;
+	line-height: 1.4em;
+	width: 550px;
+	height: 160px;
+	margin-right: 0px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.title_n_text, .links
+  {
+	margin: 0 25px;
+}
+
+.title_n_text p {
+	padding: 0 10px;
+	transform: translateY(-10px);
+	display: inline-block;
+	height: calc(160px - 36px);
+	overflow-y: scroll;
+	color: white;
+}
+
+p::-webkit-scrollbar {
+	display: none;
+
+}
+
+.cushion {
+	padding-bottom: 30px;
+}
+
+.cushion2 {
+	padding-bottom: 15px;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding:
+}
+.carousel {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    background: rgba(0, 255, 0, 0.1);
+    transition: background-image 0.5s ease-in-out;
+    border: 3px solid gold;
+}
+.carousel img { display: none; }
+.carousel .arrowL,
+.carousel .arrowR {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 1);
+    transition: 0.3s ease-in-out;
+}
+.carousel .arrowL:hover,
+.carousel .arrowR:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+}
+.carousel .arrowL {
+    left: 0;
+    border-radius: 0 4px 4px 0;
+}
+.carousel .arrowR {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+.carousel a {
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
